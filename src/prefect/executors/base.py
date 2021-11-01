@@ -41,6 +41,7 @@ class Executor:
         Returns:
             - Any: a future-like object
         """
+        # _scatter is a reserved keyword
         raise NotImplementedError()
 
     def wait(self, futures: Any) -> Any:
